@@ -4,11 +4,13 @@
  mysql -u root -p
  ``` 
  2. Membuat database
+
 **Pastikan** untuk merubah **nama_database** sesuai yang anda inginkan.
 ```
 create database nama_database;
 ``` 
  4. Grant database (membuat akses)
+
 **Pastikan** untuk merubah **user** dan **password** sesuai dengan kebutuhan.
 ```
 grant all on nama_database.* to user@localhost identified by "password";
