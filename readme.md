@@ -27,7 +27,7 @@ flush privileges;
 
 **Berikut contoh ketika menjalankan grant ini.**
 ```
-[root@stainsorong akademika]# mysql -u root -p
+$ mysql -u root -p
 Enter password:
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 326421
@@ -55,5 +55,5 @@ Query OK, 0 rows affected (0.18 sec)
 
 mysql> \q
 Bye
-[root@stainsorong akademika]#
+$
 ```
